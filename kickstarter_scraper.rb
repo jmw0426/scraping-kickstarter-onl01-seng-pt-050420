@@ -8,7 +8,7 @@ require "pry"
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # description: project.css("p.bbcard_blurb").text
 
-#project.css("ul.project-meta").text
+# project.css("ul.project-meta").text
 #.li.a data-location"
 def create_project_hash
   html = File.read('fixtures/kickstarter.html')
